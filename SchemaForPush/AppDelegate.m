@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <JLRoutes.h>
+
 
 @interface AppDelegate ()
 
@@ -18,6 +20,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
+}
+
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [JLRoutes routeURL:url];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

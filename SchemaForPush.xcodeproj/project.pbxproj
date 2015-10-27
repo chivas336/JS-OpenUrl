@@ -13,9 +13,18 @@
 		7568B6F21BDF1C45006D9E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7568B6F01BDF1C45006D9E0E /* Main.storyboard */; };
 		7568B6F41BDF1C45006D9E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7568B6F31BDF1C45006D9E0E /* Assets.xcassets */; };
 		7568B6F71BDF1C45006D9E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7568B6F51BDF1C45006D9E0E /* LaunchScreen.storyboard */; };
+		7568B7001BDF211A006D9E0E /* ClickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7568B6FF1BDF211A006D9E0E /* ClickView.m */; };
+		7568B7021BDF212F006D9E0E /* ClickView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7568B7011BDF212F006D9E0E /* ClickView.xib */; };
+		7568B7061BDF22F3006D9E0E /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7568B7041BDF22F3006D9E0E /* NextViewController.m */; };
+		7568B7071BDF22F3006D9E0E /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7568B7051BDF22F3006D9E0E /* NextViewController.xib */; };
+		7568B70B1BDF2591006D9E0E /* AppConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7568B70A1BDF2591006D9E0E /* AppConst.m */; };
+		7568B70E1BDF28ED006D9E0E /* OpenSchemaHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7568B70D1BDF28ED006D9E0E /* OpenSchemaHelper.m */; };
+		7568B7121BDF4B1A006D9E0E /* StealthViewControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7568B7111BDF4B1A006D9E0E /* StealthViewControllerHelper.m */; };
+		FFB907A916EB06EE3C19787D /* libPods-SchemaForPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0347ED0D24CD20003B7D7B9 /* libPods-SchemaForPush.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4578B4B3B95CE1DB81352B60 /* Pods-SchemaForPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchemaForPush.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SchemaForPush/Pods-SchemaForPush.debug.xcconfig"; sourceTree = "<group>"; };
 		7568B6E41BDF1C45006D9E0E /* SchemaForPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchemaForPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7568B6E81BDF1C45006D9E0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7568B6EA1BDF1C45006D9E0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,21 @@
 		7568B6F31BDF1C45006D9E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7568B6F61BDF1C45006D9E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7568B6F81BDF1C45006D9E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7568B6FE1BDF211A006D9E0E /* ClickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickView.h; sourceTree = "<group>"; };
+		7568B6FF1BDF211A006D9E0E /* ClickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickView.m; sourceTree = "<group>"; };
+		7568B7011BDF212F006D9E0E /* ClickView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClickView.xib; sourceTree = "<group>"; };
+		7568B7031BDF22F3006D9E0E /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		7568B7041BDF22F3006D9E0E /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		7568B7051BDF22F3006D9E0E /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		7568B7081BDF239E006D9E0E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7568B7091BDF2591006D9E0E /* AppConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConst.h; sourceTree = "<group>"; };
+		7568B70A1BDF2591006D9E0E /* AppConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConst.m; sourceTree = "<group>"; };
+		7568B70C1BDF28ED006D9E0E /* OpenSchemaHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSchemaHelper.h; sourceTree = "<group>"; };
+		7568B70D1BDF28ED006D9E0E /* OpenSchemaHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenSchemaHelper.m; sourceTree = "<group>"; };
+		7568B7101BDF4B1A006D9E0E /* StealthViewControllerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StealthViewControllerHelper.h; sourceTree = "<group>"; };
+		7568B7111BDF4B1A006D9E0E /* StealthViewControllerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StealthViewControllerHelper.m; sourceTree = "<group>"; };
+		F0347ED0D24CD20003B7D7B9 /* libPods-SchemaForPush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SchemaForPush.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49BD62193E654F85777341E /* Pods-SchemaForPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchemaForPush.release.xcconfig"; path = "Pods/Target Support Files/Pods-SchemaForPush/Pods-SchemaForPush.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB907A916EB06EE3C19787D /* libPods-SchemaForPush.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CD9D13E73A1FC16F6A8D55F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4578B4B3B95CE1DB81352B60 /* Pods-SchemaForPush.debug.xcconfig */,
+				F49BD62193E654F85777341E /* Pods-SchemaForPush.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39D71C75B992E57F41A258D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0347ED0D24CD20003B7D7B9 /* libPods-SchemaForPush.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7568B6DB1BDF1C45006D9E0E = {
 			isa = PBXGroup;
 			children = (
 				7568B6E61BDF1C45006D9E0E /* SchemaForPush */,
 				7568B6E51BDF1C45006D9E0E /* Products */,
+				1CD9D13E73A1FC16F6A8D55F /* Pods */,
+				39D71C75B992E57F41A258D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +106,22 @@
 				7568B6EB1BDF1C45006D9E0E /* AppDelegate.m */,
 				7568B6ED1BDF1C45006D9E0E /* ViewController.h */,
 				7568B6EE1BDF1C45006D9E0E /* ViewController.m */,
+				7568B7101BDF4B1A006D9E0E /* StealthViewControllerHelper.h */,
+				7568B7111BDF4B1A006D9E0E /* StealthViewControllerHelper.m */,
+				7568B70C1BDF28ED006D9E0E /* OpenSchemaHelper.h */,
+				7568B70D1BDF28ED006D9E0E /* OpenSchemaHelper.m */,
+				7568B7031BDF22F3006D9E0E /* NextViewController.h */,
+				7568B7041BDF22F3006D9E0E /* NextViewController.m */,
+				7568B7051BDF22F3006D9E0E /* NextViewController.xib */,
+				7568B6FE1BDF211A006D9E0E /* ClickView.h */,
+				7568B6FF1BDF211A006D9E0E /* ClickView.m */,
+				7568B7011BDF212F006D9E0E /* ClickView.xib */,
+				7568B7091BDF2591006D9E0E /* AppConst.h */,
+				7568B70A1BDF2591006D9E0E /* AppConst.m */,
 				7568B6F01BDF1C45006D9E0E /* Main.storyboard */,
 				7568B6F31BDF1C45006D9E0E /* Assets.xcassets */,
 				7568B6F51BDF1C45006D9E0E /* LaunchScreen.storyboard */,
+				7568B7081BDF239E006D9E0E /* PrefixHeader.pch */,
 				7568B6F81BDF1C45006D9E0E /* Info.plist */,
 				7568B6E71BDF1C45006D9E0E /* Supporting Files */,
 			);
@@ -86,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7568B6FB1BDF1C45006D9E0E /* Build configuration list for PBXNativeTarget "SchemaForPush" */;
 			buildPhases = (
+				9F4B15DAC8AD3393F3E0F93F /* Check Pods Manifest.lock */,
 				7568B6E01BDF1C45006D9E0E /* Sources */,
 				7568B6E11BDF1C45006D9E0E /* Frameworks */,
 				7568B6E21BDF1C45006D9E0E /* Resources */,
+				12ADC5518FF931D9276AE304 /* Embed Pods Frameworks */,
+				BE8B19C41089EF29A69D011F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,19 +199,74 @@
 				7568B6F71BDF1C45006D9E0E /* LaunchScreen.storyboard in Resources */,
 				7568B6F41BDF1C45006D9E0E /* Assets.xcassets in Resources */,
 				7568B6F21BDF1C45006D9E0E /* Main.storyboard in Resources */,
+				7568B7021BDF212F006D9E0E /* ClickView.xib in Resources */,
+				7568B7071BDF22F3006D9E0E /* NextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12ADC5518FF931D9276AE304 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchemaForPush/Pods-SchemaForPush-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4B15DAC8AD3393F3E0F93F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE8B19C41089EF29A69D011F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchemaForPush/Pods-SchemaForPush-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7568B6E01BDF1C45006D9E0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7568B7061BDF22F3006D9E0E /* NextViewController.m in Sources */,
 				7568B6EF1BDF1C45006D9E0E /* ViewController.m in Sources */,
+				7568B70E1BDF28ED006D9E0E /* OpenSchemaHelper.m in Sources */,
 				7568B6EC1BDF1C45006D9E0E /* AppDelegate.m in Sources */,
+				7568B7121BDF4B1A006D9E0E /* StealthViewControllerHelper.m in Sources */,
+				7568B70B1BDF2591006D9E0E /* AppConst.m in Sources */,
 				7568B6E91BDF1C45006D9E0E /* main.m in Sources */,
+				7568B7001BDF211A006D9E0E /* ClickView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +376,10 @@
 		};
 		7568B6FC1BDF1C45006D9E0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4578B4B3B95CE1DB81352B60 /* Pods-SchemaForPush.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SchemaForPush/PrefixHeader.pch";
 				INFOPLIST_FILE = SchemaForPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cosmeapp.SchemaForPush;
@@ -272,8 +389,10 @@
 		};
 		7568B6FD1BDF1C45006D9E0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49BD62193E654F85777341E /* Pods-SchemaForPush.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SchemaForPush/PrefixHeader.pch";
 				INFOPLIST_FILE = SchemaForPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cosmeapp.SchemaForPush;
@@ -300,6 +419,7 @@
 				7568B6FD1BDF1C45006D9E0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

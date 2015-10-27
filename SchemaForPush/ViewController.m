@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "ClickView.h"
+
+#import <Masonry.h>
 
 @interface ViewController ()
 
@@ -15,8 +18,22 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    ClickView *clickView = [[[NSBundle mainBundle] loadNibNamed:@"ClickView" owner:self options:nil] firstObject];
+    [self.view addSubview:clickView];
+    
+    [clickView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.leading.trailing.and.top.mas_equalTo(self.view);
+        make.height.mas_equalTo(@(50));
+    }];
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {
